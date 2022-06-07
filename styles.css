@@ -363,16 +363,17 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-.projects .carousel .box a{
+.projects .carousel .box a,
+.projects .carousel .box a:visited{
     color: #fff;
 }
 
 .projects .carousel .box a:hover{
     text-decoration: underline;
 }
-.projects .carousel .box a:visited{
+/* .projects .carousel .box a:visited{
     color: #fff;
-}
+} */
 
 
 
