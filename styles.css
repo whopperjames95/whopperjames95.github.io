@@ -363,6 +363,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+.projects .carousel .box a{
+    color: #fff;
+}
+
 .projects .carousel .box a:hover{
     text-decoration: underline;
 }
