@@ -98,8 +98,8 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("https://i.pinimg.com/originals/38/a0/4a/38a04a7b051c9481ccf55bfa439f242f.jpg") no-repeat center; */
-    background: url("https://wallpaperaccess.com/full/494195.jpg") no-repeat center center fixed;
+    background: url("https://i.pinimg.com/originals/38/a0/4a/38a04a7b051c9481ccf55bfa439f242f.jpg") no-repeat center;
+    /* background: url("https://wallpaperaccess.com/full/494195.jpg") no-repeat center center fixed; */
     background-size: cover;
     height: 100vh;
     color: #fff;
