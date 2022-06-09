@@ -99,7 +99,8 @@ html{
 .home{
     display: flex;
     /* background: url("https://i.pinimg.com/originals/38/a0/4a/38a04a7b051c9481ccf55bfa439f242f.jpg") no-repeat center; */
-    background: url("https://wallpaperaccess.com/full/494195.jpg") no-repeat center;
+    background: url("https://wallpaperaccess.com/full/494195.jpg") no-repeat center center fixed;
+    background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -242,7 +243,7 @@ section .title::after{
 /* services section styling */
 .services, .projects{
     color: #fff;
-    background: #111;
+    background: rgb(4, 4, 4);
     /* background: rgb(0, 0, 0); */
 }
 .services .title::before,
@@ -252,13 +253,13 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     content: "What I Provide";
-    background: #111;
+    background: rgb(4, 4, 4);
     /* padding-top: .7px;  */
     /* border-radius: 5px; */
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: rgb(12, 12, 12);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -370,7 +371,7 @@ section .title::after{
     content: "Projects";
 }
 .projects .carousel .card{
-    background: #222;
+    background: rgb(12, 12, 12);
     border-radius: 7px;
     padding: 35px 45px;
     text-align: center;
@@ -410,10 +411,10 @@ section .title::after{
 } */
 
 .projects .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 125px;
     object-fit: cover;
-    border-radius: 35px;
+    border-radius: 55px;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
@@ -536,7 +537,7 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: rgb(4, 4, 4);
     padding: 20px 23px;
     color: #fff;
     text-align: center;
