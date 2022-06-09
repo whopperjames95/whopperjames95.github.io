@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -40,8 +44,8 @@
             <div class="home-content">
                 <div class="text-1">The Name Is Goff...</div>
                 <div class="text-2">James Goff</div>
-                <div class="text-3">And I'm a <span>Software Engineer</span></div>
-                <a href="#">Hire Me</a>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="https://www.linkedin.com/in/james-goff-softwareengineer/" target="_blank">Hire Me</a>
             </div>
         </div>
     </section>
@@ -56,9 +60,9 @@
                     <img src="3D732EDF-4B8A-44FA-8FF1-19541E79299F_1_201_a.jpeg" alt="">
                 </div>
                 <div class="column right">
-                   <div class="text">I'm James and I'm a <span>Programmer</span></div> 
+                   <div class="text">I'm James and I'm a <span class="typing-2"></span></div> 
                    <p>Knowing what your purpose is, is truly a gift. Unfortunately, finding my purpose for me, has always been challenging until....I discovered Engineering in the Tech World.<br> <br>I was born in a small town, in Colorado, and raised in the state of Arizona. As a kid, I was always a very determined person and obsessive by nature. Having these two personality traits have helped me accomplish many things.<br><br>There are many things I like to do on my free time. I am a huge advocate for fitness, and love to weight train. I will admit though, I love junk food too. Love playing the drums and guitar as well. Reading books has been a hobby of mine also. My absolute favorite thing to do is ride my Motorcycle, I absolutely love the thrill!<br><br>I graduated from DevMountain, specializing in Python & JavaScript, but learned many other things as well. Programming is so rewarding, I love putting my mind to the test and problem solving, it is very stimulating, which is why I love programming!<br><br>Utilizing my training and knowledge provided by DevMountain, as well as the constant need to challenge myself, I am confident that I will accomplish many great things in the field of coding. Look forward to working with you!</p>
-                   <a href="#">Download CV</a>
+                   <a href="https://www.codegrepper.com/code-examples/html/attach+file+with+link+tag+in+html" target="_blank">Resume</a>
                 </div>
             </div>
         </div>
@@ -156,7 +160,7 @@
                 <div class="card">
                     <div class="box">
                         <img src="LeadGeneratingWebApp.jpeg" alt="">
-                        <div class="text">Lead Generating Website</div>
+                        <div class="text">Lead Generator</div>
                         <p>Link: <a href="https://arizonabossdetailers.herokuapp.com/" target="_blank">WebSite</a><br>Link: <a href="https://github.com/whopperjames95/capstoneproject" target="_blank">GitHub</a><br>Link: <a href="https://www.youtube.com/watch?v=Gp2gsgVhaIg" target="_blank">YouTube</a></p>
                     </div>
                 </div>
@@ -237,7 +241,9 @@
     </section>
 
     <!-- footer section  -->
-
+    <footer>
+        <span>Created By <a href="#">James Goff</a> | <span class="far fa-copyright"></span> 2022 All Rights Reserved.</span>
+    </footer>
 
 
     <script src="script.js"></script>

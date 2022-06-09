@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -47,6 +50,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -67,10 +71,35 @@
     cursor: pointer;
     display: none;
 }
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease; 
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://i.pinimg.com/originals/38/a0/4a/38a04a7b051c9481ccf55bfa439f242f.jpg") no-repeat center;
+    /* background: url("https://i.pinimg.com/originals/38/a0/4a/38a04a7b051c9481ccf55bfa439f242f.jpg") no-repeat center; */
+    background: url("https://wallpaperaccess.com/full/494195.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -121,7 +150,7 @@
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .projects, .contact{
+.about, .services, .skills, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -214,6 +243,7 @@ section .title::after{
 .services, .projects{
     color: #fff;
     background: #111;
+    /* background: rgb(0, 0, 0); */
 }
 .services .title::before,
 .projects .title::before{
@@ -221,8 +251,10 @@ section .title::after{
 }
 .services .title::after,
 .projects .title::after{
+    content: "What I Provide";
     background: #111;
-    content: "What I Provide"
+    /* padding-top: .7px;  */
+    /* border-radius: 5px; */
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -371,13 +403,11 @@ section .title::after{
 .projects .carousel .box a:hover{
     text-decoration: underline;
 }
+
+
 /* .projects .carousel .box a:visited{
     color: #fff;
 } */
-
-
-
-
 
 .projects .carousel .card img{
     height: 150px;
@@ -503,6 +533,23 @@ section .title::after{
     background: none;
 }
 
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a{
+color: crimson;
+text-decoration: none;
+}
+
+footer span a:hover{
+text-decoration: underline;
+}
 
 
 
