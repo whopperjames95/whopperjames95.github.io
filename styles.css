@@ -372,7 +372,7 @@ section .title::after{
 }
 .projects .carousel .card{
     background: rgb(12, 12, 12);
-    border-radius: 7px;
+    border-radius: 100%;
     padding: 35px 45px;
     text-align: center;
     transition: all 0.3s ease;
@@ -411,13 +411,14 @@ section .title::after{
 } */
 
 .projects .carousel .card img{
-    height: 100px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
-    border-radius: 55px;
+    border-radius: 100%;
     border: 5px solid crimson;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
+
 .projects .carousel .card:hover img{
     border-color: #fff;
 }
