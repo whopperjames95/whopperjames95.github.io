@@ -375,6 +375,41 @@ section .title::after{
 }
 
 
+/* second skillset idea */
+
+.iconz{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+}
+
+.iconz .lodgesc a{
+    color:pink
+}
+
+.lodgesc{
+    justify-content: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+.icon{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
 
 /* projects sections styling */
 .projects .title::after{
