@@ -408,8 +408,10 @@ section .title::after{
 
 #github p{
     color:black;
+}
+
+#github p:hover{
     text-decoration: underline;
-    
 }
 
 
