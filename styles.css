@@ -411,7 +411,9 @@ section .title::after{
 }
 
 #github p:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: crimson;
+    transition: all .35s ease;
 }
 
 
