@@ -59,6 +59,7 @@ html{
 }
 .navbar .menu li a:hover{
     color: crimson;
+    transition: all 0.3s ease; 
 }
 
 .navbar.sticky .menu li a:hover{
